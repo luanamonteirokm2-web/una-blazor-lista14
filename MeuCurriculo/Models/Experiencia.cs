@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Dynamic;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace MeuCurriculo.Models
+{
+    public class Experiencia
+    {
+        public string Empresa { get; set; }
+        public string Cargo { get; set; }
+
+        public string Inicio { get; set; }
+        
+        public string Fim { get; set; } = "Atual";
+
+        public string Descricao { get; set; }
+    }
+}
